@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <link rel="icon" href="{{ asset('img/flowers.png') }}" type="image/x-icon">
+ {{--    <link rel="icon" href="{{ asset('img/flowers.png') }}" type="image/x-icon"> --}}
     {{-- <link rel="icon" href="img/flowers.png" type="image/x-icon"> --}}
     <title>Flowers</title>
 </head>
 
-<body>
+
+{{-- <body>
     <div class="greetings">
         <span>H</span>
         <span>o</span>
@@ -34,5 +35,5 @@
         <p>&copy; 2023 Aprende Con JS.</p>
     </div>
 </body>
-
+ --}}
 </html>
