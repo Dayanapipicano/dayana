@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Flower;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::post('flowers', [Flower::class,'flowers'])->name('flowers');
+Route::post('main', [Flower::class,'main'])->name('main');
