@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="icon" href=" {{ asset('img/flowers.png') }}" type="image/x-icon" />
     <title>Flower</title>
   </head>
