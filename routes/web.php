@@ -19,5 +19,3 @@ Route::get('/', function () {
 });
 
 
-Route::post('flowers', [Flower::class,'flowers'])->name('flowers');
-Route::post('main', [Flower::class,'main'])->name('main');
