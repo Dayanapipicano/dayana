@@ -17,10 +17,6 @@ class Flower extends Controller
         return view('main');
         
     }
-    public function mainStyle(){
-        return view('estilos');
-        
-    }
 
     
 }

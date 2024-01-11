@@ -21,4 +21,3 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('flowers', [Flower::class,'flowers'])->name('flowers');
 Route::get('main', [Flower::class,'main'])->name('main');
-Route::get('main', [Flower::class,'mainStyle'])->name('main.style');
