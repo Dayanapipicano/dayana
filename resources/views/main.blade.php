@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="/public/css/estilos.css" />
 
-    
+  <link rel="stylesheet" href="{{ asset('css/estilos.css') }}" />
 
     <link rel="icon" href="{{ asset('img/flowers.png') }}" type="image/x-icon">
 
