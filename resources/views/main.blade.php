@@ -19,10 +19,6 @@
         <span>m</span>
         <span>o</span>
         <span>r</span>
-        <span>c</span>
-        <span>i</span>
-        <span>t</span>
-        <span>o</span>
         <span>!</span>
     </div>
   
