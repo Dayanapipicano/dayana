@@ -7,8 +7,13 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="icon" href=" {{ asset('img/flowers.png') }}" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <title>Flower</title>
   </head>
+
+
   <body class="container">
 
     
@@ -16,9 +21,17 @@
     <div id="lyrics">
       
     </div>
-    
-    <h1 class="titulo">Estas flores amarillas son un reflejo de la alegría que traes a mi vida. <br> <br>
-      Gracias por iluminar mis días con tu presencia.</h1>
+
+     <h1 class="titulo">Estas flores amarillas son un reflejo de la alegría que traes a mi vida.
+      Gracias por iluminar mis días con tu presencia. <br><br>
+      Te amo cosita encantadora❤️ 
+       
+ 
+      </h1>
+      
+      
+     
+
     <div class="night"></div>
     <div class="flowers">
       <div class="flower flower--1">
@@ -328,9 +341,15 @@
           <div class="leaf leaf--3"></div>
         </div>
       </div>
+    
     </div>
     <script src="{{ asset('anim.js') }}"></script>
     <script src="{{ asset('main.js') }}"></script>
- 
+    
+  
   </body>
+
+
+
+
 </html>

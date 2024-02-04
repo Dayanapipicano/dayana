@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
 *,
 *::after,
 *::before {
@@ -41,15 +43,20 @@ body {
 }
 .titulo {
   margin-bottom: 180px;
-  font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  margin-left: 10px;
+
+  font-family: "Charm", cursive;
+  color: rgb(205, 204, 204);
   position: absolute;
+ font-size: 30px;
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
 }
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
